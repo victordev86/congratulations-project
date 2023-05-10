@@ -19,6 +19,10 @@ header {
     cursor: pointer;
 }
 
+.header-link:hover {
+    text-decoration: underline;
+}
+
 button {
     background: #6FBF44;
     border: 1px solid #4CB538;
@@ -30,6 +34,14 @@ button {
     color: #FFFFFF;
     padding: 10px 30px;
     cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active{
+    opacity: 0.6;
 }
 
 main {
@@ -67,6 +79,10 @@ p {
     letter-spacing: 1px;
     color: #6FBF44;
     cursor: pointer;
+}
+
+.section-link:hover {
+    text-decoration: underline;
 }
 
 section {
